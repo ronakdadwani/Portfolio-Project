@@ -487,7 +487,26 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
+.demo-project  {
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  padding: 8px 16px; /* Add padding */
+  margin: 0 10px; /* Spacing between buttons */
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+  display: inline-block; /* Ensure proper button appearance */
+}
 
+.demo-project {
+  margin-top: 15px;
+  color: #ffffff; 
+  background-color: #ceb15a;
+}
+
+.demo-project:hover {
+background-color: #b2cf3f; /* Darker blue on hover */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
 
 
 
