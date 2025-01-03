@@ -333,7 +333,7 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  
 }
 
 .info-content .name {
@@ -610,6 +610,7 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
+  
 }
 
 .testimonials-item-title { margin-bottom: 7px; }
@@ -725,6 +726,10 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
 .modal-img-wrapper > img { display: none; }
 
 .modal-title { margin-bottom: 4px; }
+
+.IMG-MAIN {
+  border-radius: 25PX;
+}
 
 .modal-content time {
   font-size: var(--fs-6);
