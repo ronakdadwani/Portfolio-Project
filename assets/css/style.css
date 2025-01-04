@@ -499,13 +499,15 @@ main {
 
 .demo-project {
   margin-top: 15px;
-  color: #ffffff; 
+  color: black; 
   background-color: #ceb15a;
 }
 
 .demo-project:hover {
-background-color: #b2cf3f; /* Darker blue on hover */
+background-color: #cf9f3f; /* Darker blue on hover */
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+font-weight: bold;
+font-size: 20px;
 }
 
 
